@@ -228,7 +228,7 @@ footer h3{
         font-size: 1rem;
     }
     h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     h2{
         font-size: 1.5rem;
@@ -242,12 +242,40 @@ footer h3{
     .hero-section{
         padding: 2rem 0;
     }
+    .hero-text p{
+        font-size: 0.9rem;
+        margin: 1em 0;
+    }
     /* about */
     .about-section__Inner{
         width: 80%;
         padding-bottom: 2rem;
     }
     .about-text p{
+        font-size: 0.8rem;
+    }
+    /* recipies */
+    .recipies-section{
+        padding: 1rem 0;
+    } 
+    .recipies-section__Heading p{
+        margin: 1rem 0 0;
+    }
+    .recipies-item h3{
+        font-size: 1.7rem;
+    }
+    /* review */
+    .review h2{
+        font-size: 1.4rem;
+    }
+    .review p{
+        font-size: 0.6em;
+    }
+    /* footer */
+    footer h3{
+        font-size: 1.5rem;
+    }
+    footer p{
         font-size: 0.8rem;
     }
 }
