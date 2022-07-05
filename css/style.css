@@ -35,6 +35,14 @@ h2{
     color: #7c7c7c;
 }
 
+.text-center{
+    text-align: center;
+}
+
+.mx-auto{
+    margin: 0 auto;
+}
+
 .d-flex{
     display: flex;
 }
@@ -99,4 +107,147 @@ h2{
 .about-text p{
     margin: 2rem 0 3rem;
     font-size: 1.2rem;
+}
+
+/* recepies section */
+
+.recipies-section{
+    padding: 4rem 0;
+    font-size: 1.2rem;
+}
+
+.recipies-section__Heading{
+    padding: 1rem 0;
+}
+
+.recipies-section__Heading p{
+    margin: 2rem 0 1rem;
+}
+
+.recipies-item{
+    margin: 1rem;
+    box-shadow: 0 0 20px #cccccc;
+    border-radius: 2.2rem;
+    padding: 1.8rem;
+}
+
+.recipies-item h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+
+.recipies-item p{
+    margin-bottom: 0.6em;
+}
+
+.recipies-item img{
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1.8rem;
+}
+
+/* review */
+
+.review-section{
+    margin-bottom: 5rem;
+}
+
+.reviews{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    box-shadow: 0 0 20px #dfdfdf;
+    border-radius: 2.2rem;
+    padding: 4rem 1.8rem;
+}
+
+/* footer */
+
+footer{
+    background-color: #0B0D17;
+    color: #fff;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+footer h3{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* media query */
+
+@media screen and (max-width:810px) {
+    h1{
+        font-size: 2.8rem;
+    } 
+    h2{
+        font-size: 2rem;
+    }
+    .btn{
+        padding: 0.8rem 1.8rem;
+    }
+    /* about */
+    .about-section{
+        padding-top: 2rem;
+    }
+    .about-text p{
+        margin: 1rem 0;
+    }
+    /* recipie */
+    .recipies-section{
+        padding: 2rem 0 1rem;
+    }
+    /* review */
+    .review-section{
+        margin-bottom: 3rem;
+    }
+    .reviews{
+        padding: 3rem 1.8rem;
+    }
+    /* footer */
+    footer{
+        padding: 3rem 0;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .recipies-items{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .container{
+        width: 90%;
+    }
+    p{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .btn{
+        font-size: 0.8rem;
+        font-weight: 700;
+        padding: 0.7rem 1.2rem;
+    }
+    /* hero */
+    .hero-section{
+        padding: 2rem 0;
+    }
+    /* about */
+    .about-section__Inner{
+        width: 80%;
+        padding-bottom: 2rem;
+    }
+    .about-text p{
+        font-size: 0.8rem;
+    }
 }
