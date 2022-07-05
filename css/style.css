@@ -11,12 +11,16 @@ body{
 }
 
 .container{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
 
 h1{
     font-size: 3.8rem;
+}
+
+h2{
+    font-size: 2.5rem;
 }
 
 .text-orange{
@@ -52,17 +56,47 @@ h1{
     font-size: 1.2rem;
 }
 
-/* hero section */
-
-.hero-text{
+.w-50{
     width: 50%;
 }
 
-.hero-img{
-    width: 50%;
+/* hero section */
+
+.hero-section{
+    padding: 4rem 0;
+}
+
+.hero-img img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
 }
 
 .hero-text p{
     font-size: 1.2rem;
     margin: 2rem 0;
+}
+
+/* about section */
+
+.about-section{
+    background-image: url(../images/about.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 4rem;
+}
+
+.about-section__Inner{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about-img img{
+    width: 70%;
+}
+
+.about-text p{
+    margin: 2rem 0 3rem;
+    font-size: 1.2rem;
 }
